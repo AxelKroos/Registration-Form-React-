@@ -1,0 +1,28 @@
+.form {
+    display: grid;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+}
+
+button{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    top: 80px;
+    height:40px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+button:hover{
+    background:#fff;
+    color:#1AAB8A;
+}
